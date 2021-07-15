@@ -1,0 +1,62 @@
+html { 
+  font-size: 10px;
+}
+
+body {
+  background-color: #0a0022;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.main__wrapper {
+  width: 80rem;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 4rem;
+  text-transform: capitalize;
+  line-height: 1.5;
+  margin: 4rem;
+  text-align: center;
+}
+
+.input {
+  display: block;
+  width: 91%;
+  padding: 1.6rem;
+  margin: 2rem;
+  border: 1px solid #012f44;
+  color: #012f44;
+}
+
+.button__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  border: transparent;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 1.6rem;
+  color: #fff;
+  margin: 0 2rem;
+  width: 40%;
+}
+
+.primary {
+  background-color: #00beee;
+}
+
+.secondary {
+  background-color: #f08902;
+}
+
+.messageBox {
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "typescript101",
+  "version": "1.0.0",
+  "description": "Scafolding of a project for TypeScript 101 Techtalk",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lit-server"
+  },
+  "keywords": [
+    "TypeScript",
+    "TechTalk",
+    "MoyArt"
+  ],
+  "author": "Moises Pedraza",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
